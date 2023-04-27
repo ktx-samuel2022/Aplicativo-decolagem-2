@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" integrity="sha512-AQMSn1qO6KN85GOfvH6BWJk46LhlvepblftLHzAv1cdIyTWPBKHX+r+NOXVVw6+XQpeW4LJk/GTmoP48FLvblQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="stye.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo De Colagem</title>
+</head>
+<body>
+    <center>
+    <h1 class="btn btn-primary">Aplicativo de Colagem</h1>
+    <br>
+    <br>
+<br>
+    <h4 class="btn btn-danger">Assim que o pop-up aparecer,clique em permitir.Depois pode falar o comando</h4>
+    <br><br><br>
+    <h3 class="btn btn-success">Diga "selfie" para tirar suas selfies e fotos e fazer a colagem</h3>
+    <br><br><br>
+    <textarea readonly="true" id="caixaTexto" class="form-control"></textarea>
+    <button  onclick="Selfie()">Iniciar</button>
+    <br><br>
+    <h3>Precione o botão Iniciar</h3>
+    <h4>Sua webcam:</h4>
+    <br><br><br><br><br>
+    <label>A sua imagem será mostrada aqui:</label>
+    <div id="camera"></div>
+    <hr>
+    <div id="result"></div>
+</center>
+<script src="main.js"></script>
+</body>
+</html>
